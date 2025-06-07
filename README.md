@@ -3,6 +3,8 @@ Introduction
 A cutting-edge AI SaaS platform that enables users to create, discover, and enjoy podcasts with advanced features like text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation and seamless playback.
 
 Tech Stack
+ 
+  
   Next.js
   TypeScript
   Convex
@@ -12,6 +14,8 @@ Tech Stack
   Tailwind CSS
 
 Features 
+ 
+  
   Robust Authentication: Secure and reliable user login and registration system.
   Modern Home Page: Showcases trending podcasts with a sticky podcast player for continuous listening.
   Discover Podcasts Page: Dedicated page for users to explore new and popular podcasts.
@@ -25,24 +29,31 @@ Features
 
 
 Quick Start
+
   Prerequisites
+  
   Make sure you have the following installed on your machine:
+ 
    Git
    Node.js
    npm (Node Package Manager)
 
 
 Installation
+
  Install the project dependencies using npm:
+ 
   npm install
 
 Set Up Environment Variables
+
  CONVEX_DEPLOYMENT=
  NEXT_PUBLIC_CONVEX_URL=
  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
  CLERK_SECRET_KEY=
  NEXT_PUBLIC_CLERK_SIGN_IN_URL='/sign-in'
  NEXT_PUBLIC_CLERK_SIGN_UP_URL='/sign-up'
+
 Replace the placeholder values with your actual Convex & Clerk credentials. You can obtain these credentials by signing up on the Convex and Clerk websites.
 
 Running the Project
